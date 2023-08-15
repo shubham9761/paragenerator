@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #2a2626;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+    background: #fff;
+    height: 100vh;
+}
+h1{
+    text-align: center;
+    border-bottom: 1px solid black;
+    margin:20px;
+    padding:10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+button:active{
+    background-color: rgb(84, 64, 217);
+}
+#numOfwords, button{
+    padding:10px;
+    font-size: 15px;
+    border: 1px solid #ded7d7;
+    outline: none;
+    border-radius: 3px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button{
+    background-color: black;
+    color:rgb(255, 255, 255);
+    border:1px solid black;
+    outline: none;
+}
+button:hover{
+    background-color: #455;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    margin:20px;
+}
+p{
+    margin: 7px 20px;
+    background-color: rgba(238, 238, 238, 0.881);
+    padding:5px;
+    border-radius: 5px;
+    font-family:Georgia, Times, 'Times New Roman', serif;
+}
+
